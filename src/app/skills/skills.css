@@ -1,0 +1,32 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  width: 100%;
+  border: 1px solid #d8e4ed;
+  border-radius: 6px;
+  padding: 10px 14px;
+  background: #ffffff;
+  color: #34495e;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.skill:hover {
+  border-color: #8fb5d2;
+  background: #edf4f9;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  ul {
+    grid-template-columns: 1fr;
+  }
+}

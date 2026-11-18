@@ -10,40 +10,6 @@
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
 }
 
-.intro {
-  text-align: center;
-  padding: 32px 24px;
-  margin-bottom: 30px;
-  background: linear-gradient(135deg, #245b91, #4a86c0);
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(36, 91, 145, 0.25);
-}
-
-.intro h1 {
-  margin: 0 0 8px;
-  color: #ffffff;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 2.3rem;
-  letter-spacing: 0.5px;
-  transition: color 0.2s ease;
-}
-
-.intro h1:hover {
-  color: #e8f1fa;
-}
-
-.intro p {
-  margin: 0;
-  color: #dbe9f6;
-  overflow-wrap: anywhere;
-}
-
-.intro a {
-  color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
 section {
   margin: 28px 0;
   padding: 20px 22px;
@@ -147,7 +113,6 @@ ul.projects li {
 }
 
 ul.projects li::before {
-  content: '▹';
   position: absolute;
   left: 0;
   color: #6b9dcc;
